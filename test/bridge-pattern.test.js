@@ -4,10 +4,7 @@ import { expect, test } from 'vitest'
 import {
     Payment,
     PaypalGateway,
-    paypalOneTimePayment,
-    paypalOneYearSubscription,
-    StripeGateway,
-    stripeOneYearSubscription
+    StripeGateway
 } from '../domain/oneTimePayment.js'
 
 test('can charge a stripe single user for a one-time payment of $120', () => {
